@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^4.31.3",
     "@hookform/resolvers": "^3.3.2",
+    "@prisma/client": "^5.15.0",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-checkbox": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
@@ -20,6 +21,7 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@stripe/stripe-js": "^2.2.1",
+    "@types/express": "^4.17.21",
     "@uploadthing/react": "^6.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",

@@ -1,8 +1,9 @@
 import { PrismaClient } from '@prisma/client';
+import { Request, Response } from 'express';
 
 const prisma = new PrismaClient();
 
-export default async function handler(req, res) {
+export default async function handler(req: Request, res: Response) {
   if (req.method === 'POST') {
     const { userId, title, description, categoryId, startDateTime, endDateTime, location, price, isFree, url, imageUrl } = req.body;
 
